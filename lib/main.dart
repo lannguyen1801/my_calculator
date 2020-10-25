@@ -55,7 +55,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
         resultFontSize=48.0;
         expression = equation;
         expression = expression.replaceAll('×', '*');
-        expression = expression.replaceAll('÷*', '/');
+        expression = expression.replaceAll('÷', '/');
         expression = expression.replaceAll('%', '/100');
 
         try{
