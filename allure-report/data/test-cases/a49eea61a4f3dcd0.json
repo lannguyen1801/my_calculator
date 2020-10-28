@@ -1,0 +1,214 @@
+{
+  "uid" : "a49eea61a4f3dcd0",
+  "name" : "User plus 2 number successfully -- @1.1 ",
+  "historyId" : "b25e046a7cd574a2b1f9cba03d97128c",
+  "time" : {
+    "start" : 1603634586049,
+    "stop" : 1603634618553,
+    "duration" : 32504
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given User navigate to Calculator application",
+      "time" : {
+        "start" : 1603634586052,
+        "stop" : 1603634604800,
+        "duration" : 18748
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then User must see title with \"Simple Calculator\"",
+      "time" : {
+        "start" : 1603634604800,
+        "stop" : 1603634605228,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When User press first number with \"1\"",
+      "time" : {
+        "start" : 1603634605229,
+        "stop" : 1603634611273,
+        "duration" : 6044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And User press \"+\" symbol",
+      "time" : {
+        "start" : 1603634611273,
+        "stop" : 1603634612794,
+        "duration" : 1521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And User press second number with \"2\"",
+      "time" : {
+        "start" : 1603634612794,
+        "stop" : 1603634615604,
+        "duration" : 2810
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And User press \"=\" button",
+      "time" : {
+        "start" : 1603634615605,
+        "stop" : 1603634618447,
+        "duration" : 2842
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then User must see the result with \"3.0\"",
+      "time" : {
+        "start" : 1603634618448,
+        "stop" : 1603634618553,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "SignIn"
+  }, {
+    "name" : "feature",
+    "value" : "MainPage"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "message",
+    "value" : "3.0"
+  }, {
+    "name" : "number1",
+    "value" : "1"
+  }, {
+    "name" : "number2",
+    "value" : "2"
+  }, {
+    "name" : "result",
+    "value" : "="
+  }, {
+    "name" : "symbol",
+    "value" : "+"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e6b78125e3bdfcfa",
+        "reportUrl" : "http://localhost:8080/job/my_calculator/5/allure/#testresult/e6b78125e3bdfcfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603026226885,
+          "stop" : 1603026260890,
+          "duration" : 34005
+        }
+      }, {
+        "uid" : "ea04a8cd81488d4b",
+        "reportUrl" : "http://localhost:8080/job/my_calculator/4/allure/#testresult/ea04a8cd81488d4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603025841645,
+          "stop" : 1603025873429,
+          "duration" : 31784
+        }
+      }, {
+        "uid" : "73d427b9955a58d",
+        "reportUrl" : "http://localhost:8080/job/my_calculator/3/allure/#testresult/73d427b9955a58d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603024257692,
+          "stop" : 1603024286537,
+          "duration" : 28845
+        }
+      } ]
+    },
+    "tags" : [ "SignIn" ]
+  },
+  "source" : "a49eea61a4f3dcd0.json",
+  "parameterValues" : [ "3.0", "1", "2", "=", "+" ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b3c62d3d504a426e",
+  "name" : "User plus 2 number successfully -- @1.2 ",
+  "time" : {
+    "start" : 1603634618555,
+    "stop" : 1603634646569,
+    "duration" : 28014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a49eea61a4f3dcd0",
+  "name" : "User plus 2 number successfully -- @1.1 ",
+  "time" : {
+    "start" : 1603634586049,
+    "stop" : 1603634618553,
+    "duration" : 32504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

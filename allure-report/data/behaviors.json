@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "MainPage",
+    "children" : [ {
+      "name" : "User plus 2 number successfully -- @1.1 ",
+      "uid" : "a49eea61a4f3dcd0",
+      "parentUid" : "3c0b4e0236085f78673323b783e6a5fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603634586049,
+        "stop" : 1603634618553,
+        "duration" : 32504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3.0", "1", "2", "=", "+" ]
+    }, {
+      "name" : "User plus 2 number successfully -- @1.2 ",
+      "uid" : "b3c62d3d504a426e",
+      "parentUid" : "3c0b4e0236085f78673323b783e6a5fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603634618555,
+        "stop" : 1603634646569,
+        "duration" : 28014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2.0", "3", "1", "=", "-" ]
+    } ],
+    "uid" : "3c0b4e0236085f78673323b783e6a5fd"
+  } ]
+}
