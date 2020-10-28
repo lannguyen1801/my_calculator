@@ -1,36 +1,3 @@
 [ {
-  "buildOrder" : 7,
-  "reportUrl" : "http://localhost:8080/job/my_calculator/7/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 63928
-  }
-}, {
-  "buildOrder" : 6,
-  "reportUrl" : "http://localhost:8080/job/my_calculator/6/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 60520
-  }
-}, {
-  "buildOrder" : 5,
-  "reportUrl" : "http://localhost:8080/job/my_calculator/5/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 68717
-  }
-}, {
-  "buildOrder" : 4,
-  "reportUrl" : "http://localhost:8080/job/my_calculator/4/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 64964
-  }
-}, {
-  "buildOrder" : 3,
-  "reportUrl" : "http://localhost:8080/job/my_calculator/3/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 56821
-  }
+  "data" : { }
 } ]

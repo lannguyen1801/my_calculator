@@ -1,57 +1,5 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ {
-    "name" : "User plus 2 number successfully -- @1.1 ",
-    "uid" : "50e2b4844bd80c40",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1603634586049,
-      "stop" : 1603634618553,
-      "duration" : 32504
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "3.0", "1", "2", "=", "+" ]
-  }, {
-    "name" : "User plus 2 number successfully -- @1.1 ",
-    "uid" : "4d87e26c6b92b6eb",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1603845660183,
-      "stop" : 1603845692599,
-      "duration" : 32416
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "3.0", "1", "2", "=", "+" ]
-  }, {
-    "name" : "User plus 2 number successfully -- @1.2 ",
-    "uid" : "686ee3e2a7de29a0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1603634618555,
-      "stop" : 1603634646569,
-      "duration" : 28014
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "2.0", "3", "1", "=", "-" ]
-  }, {
-    "name" : "User plus 2 number successfully -- @1.2 ",
-    "uid" : "9799aa2ab3bcb507",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1603845692617,
-      "stop" : 1603845724111,
-      "duration" : 31494
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "2.0", "3", "1", "=", "-" ]
-  } ]
+  "children" : [ ]
 }

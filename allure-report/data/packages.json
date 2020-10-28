@@ -1,31 +1,5 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ {
-    "name" : "User plus 2 number successfully -- @1.1 ",
-    "uid" : "4d87e26c6b92b6eb",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
-    "time" : {
-      "start" : 1603845660183,
-      "stop" : 1603845692599,
-      "duration" : 32416
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "3.0", "1", "2", "=", "+" ]
-  }, {
-    "name" : "User plus 2 number successfully -- @1.2 ",
-    "uid" : "9799aa2ab3bcb507",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
-    "time" : {
-      "start" : 1603845692617,
-      "stop" : 1603845724111,
-      "duration" : 31494
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "2.0", "3", "1", "=", "-" ]
-  } ]
+  "children" : [ ]
 }
