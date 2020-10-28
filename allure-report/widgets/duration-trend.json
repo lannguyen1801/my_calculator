@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:8080/job/my_calculator/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 63928
+  }
+}, {
   "buildOrder" : 6,
   "reportUrl" : "http://localhost:8080/job/my_calculator/6/allure",
   "reportName" : "AllureReport",

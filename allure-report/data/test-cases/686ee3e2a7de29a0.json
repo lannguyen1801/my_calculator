@@ -1,5 +1,5 @@
 {
-  "uid" : "b3c62d3d504a426e",
+  "uid" : "686ee3e2a7de29a0",
   "name" : "User plus 2 number successfully -- @1.2 ",
   "historyId" : "4269df6422320b1fb31b64595a433cfc",
   "time" : {
@@ -24,10 +24,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Then User must see title with \"Simple Calculator\"",
       "time" : {
@@ -39,10 +39,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "When User press first number with \"3\"",
       "time" : {
@@ -54,10 +54,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "And User press \"-\" symbol",
       "time" : {
@@ -69,10 +69,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "And User press second number with \"1\"",
       "time" : {
@@ -84,10 +84,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "And User press \"=\" button",
       "time" : {
@@ -99,10 +99,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Then User must see the result with \"2.0\"",
       "time" : {
@@ -114,17 +114,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
     "hasContent" : true,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -163,52 +163,12 @@
     "value" : "-"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 4,
-        "unknown" : 0,
-        "total" : 4
-      },
-      "items" : [ {
-        "uid" : "d06a612175537125",
-        "reportUrl" : "http://localhost:8080/job/my_calculator/5/allure/#testresult/d06a612175537125",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603026260894,
-          "stop" : 1603026295602,
-          "duration" : 34708
-        }
-      }, {
-        "uid" : "3c5017a7ac21feff",
-        "reportUrl" : "http://localhost:8080/job/my_calculator/4/allure/#testresult/3c5017a7ac21feff",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603025873433,
-          "stop" : 1603025906609,
-          "duration" : 33176
-        }
-      }, {
-        "uid" : "843fba6892cca535",
-        "reportUrl" : "http://localhost:8080/job/my_calculator/3/allure/#testresult/843fba6892cca535",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603024286541,
-          "stop" : 1603024314513,
-          "duration" : 27972
-        }
-      } ]
-    },
     "tags" : [ "SignIn" ]
   },
-  "source" : "b3c62d3d504a426e.json",
+  "source" : "686ee3e2a7de29a0.json",
   "parameterValues" : [ "2.0", "3", "1", "=", "-" ]
 }
