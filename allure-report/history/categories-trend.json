@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 12,
+  "reportUrl" : "http://localhost:8080/job/my_calculator/12/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
   "buildOrder" : 11,
   "reportUrl" : "http://localhost:8080/job/my_calculator/11/allure",
   "reportName" : "AllureReport",

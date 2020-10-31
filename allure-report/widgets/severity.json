@@ -1,21 +1,21 @@
 [ {
-  "uid" : "d4f17a00584aaadc",
-  "name" : "User plus 2 number successfully -- @1.1 ",
+  "uid" : "54b35eeec454aa5b",
+  "name" : "User plus 2 number successfully -- @1.2 ",
   "time" : {
-    "start" : 1604132318591,
-    "stop" : 1604132351697,
-    "duration" : 33106
+    "start" : 1604133143220,
+    "stop" : 1604133179082,
+    "duration" : 35862
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "44347753a7e8e15e",
-  "name" : "User plus 2 number successfully -- @1.2 ",
+  "uid" : "e633e5adaae8609e",
+  "name" : "User plus 2 number successfully -- @1.1 ",
   "time" : {
-    "start" : 1604132351714,
-    "stop" : 1604132382864,
-    "duration" : 31150
+    "start" : 1604133122645,
+    "stop" : 1604133143181,
+    "duration" : 20536
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 } ]

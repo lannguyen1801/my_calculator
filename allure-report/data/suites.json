@@ -3,26 +3,26 @@
   "name" : "suites",
   "children" : [ {
     "name" : "User plus 2 number successfully -- @1.1 ",
-    "uid" : "d4f17a00584aaadc",
+    "uid" : "e633e5adaae8609e",
     "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1604132318591,
-      "stop" : 1604132351697,
-      "duration" : 33106
+      "start" : 1604133122645,
+      "stop" : 1604133143181,
+      "duration" : 20536
     },
     "flaky" : false,
-    "newFailed" : false,
+    "newFailed" : true,
     "parameters" : [ "3.0", "1", "2", "=", "+" ]
   }, {
     "name" : "User plus 2 number successfully -- @1.2 ",
-    "uid" : "44347753a7e8e15e",
+    "uid" : "54b35eeec454aa5b",
     "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
     "status" : "passed",
     "time" : {
-      "start" : 1604132351714,
-      "stop" : 1604132382864,
-      "duration" : 31150
+      "start" : 1604133143220,
+      "stop" : 1604133179082,
+      "duration" : 35862
     },
     "flaky" : false,
     "newFailed" : false,

@@ -1,130 +1,136 @@
 {
-  "uid" : "d4f17a00584aaadc",
+  "uid" : "e633e5adaae8609e",
   "name" : "User plus 2 number successfully -- @1.1 ",
   "historyId" : "b25e046a7cd574a2b1f9cba03d97128c",
   "time" : {
-    "start" : 1604132318591,
-    "stop" : 1604132351697,
-    "duration" : 33106
+    "start" : 1604133122645,
+    "stop" : 1604133143181,
+    "duration" : 20536
   },
-  "status" : "passed",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Dont see message\n",
+  "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
   "flaky" : false,
-  "newFailed" : false,
+  "newFailed" : true,
   "beforeStages" : [ ],
   "testStage" : {
-    "status" : "passed",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Dont see message\n",
+    "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
     "steps" : [ {
       "name" : "Given User navigate to Calculator application",
       "time" : {
-        "start" : 1604132318596,
-        "stop" : 1604132338341,
-        "duration" : 19745
+        "start" : 1604133122648,
+        "stop" : 1604133141157,
+        "duration" : 18509
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Then User must see title with \"Simple Calculator\"",
       "time" : {
-        "start" : 1604132338342,
-        "stop" : 1604132338766,
-        "duration" : 424
+        "start" : 1604133141158,
+        "stop" : 1604133143176,
+        "duration" : 2018
       },
-      "status" : "passed",
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Dont see message\n",
+      "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "When User press first number with \"1\"",
       "time" : {
-        "start" : 1604132338767,
-        "stop" : 1604132343428,
-        "duration" : 4661
+        "start" : 1604133143180,
+        "stop" : 1604133143180,
+        "duration" : 0
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And User press \"+\" symbol",
       "time" : {
-        "start" : 1604132343429,
-        "stop" : 1604132345040,
-        "duration" : 1611
+        "start" : 1604133143180,
+        "stop" : 1604133143180,
+        "duration" : 0
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And User press second number with \"2\"",
       "time" : {
-        "start" : 1604132345040,
-        "stop" : 1604132348250,
-        "duration" : 3210
+        "start" : 1604133143180,
+        "stop" : 1604133143180,
+        "duration" : 0
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And User press \"=\" button",
       "time" : {
-        "start" : 1604132348251,
-        "stop" : 1604132351564,
-        "duration" : 3313
+        "start" : 1604133143181,
+        "stop" : 1604133143181,
+        "duration" : 0
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Then User must see the result with \"3.0\"",
       "time" : {
-        "start" : 1604132351566,
-        "stop" : 1604132351697,
-        "duration" : 131
+        "start" : 1604133143181,
+        "stop" : 1604133143181,
+        "duration" : 0
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 7,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -168,7 +174,15 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "87644dcf6e44db47",
+      "uid" : "8d619f0a116077d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604132318591,
+        "stop" : 1604132351697,
+        "duration" : 33106
+      }
+    }, {
+      "uid" : "7d24818284186450",
       "status" : "passed",
       "time" : {
         "start" : 1603846887760,
@@ -176,7 +190,7 @@
         "duration" : 31079
       }
     }, {
-      "uid" : "81814e7681d1078c",
+      "uid" : "671f009b60f6cf34",
       "status" : "passed",
       "time" : {
         "start" : 1603846659496,
@@ -184,7 +198,7 @@
         "duration" : 33097
       }
     }, {
-      "uid" : "3d0afcc5d8152863",
+      "uid" : "2689af2625a047c0",
       "status" : "failed",
       "statusDetails" : "AssertionError: Dont see message\n",
       "time" : {
@@ -193,7 +207,7 @@
         "duration" : 21392
       }
     }, {
-      "uid" : "a4210125e15af3f",
+      "uid" : "f1b9a058f58b57fb",
       "status" : "passed",
       "time" : {
         "start" : 1603845660183,
@@ -201,7 +215,7 @@
         "duration" : 32416
       }
     }, {
-      "uid" : "437c1dd49afe6f12",
+      "uid" : "6bace681dc0965c8",
       "status" : "passed",
       "time" : {
         "start" : 1603634586049,
@@ -209,17 +223,30 @@
         "duration" : 32504
       }
     } ],
-    "categories" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "history" : {
       "statistic" : {
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
         "passed" : 7,
         "unknown" : 0,
-        "total" : 7
+        "total" : 8
       },
       "items" : [ {
+        "uid" : "d4f17a00584aaadc",
+        "reportUrl" : "http://localhost:8080/job/my_calculator/11/allure/#testresult/d4f17a00584aaadc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604132318591,
+          "stop" : 1604132351697,
+          "duration" : 33106
+        }
+      }, {
         "uid" : "20a67b22b78685f0",
         "reportUrl" : "http://localhost:8080/job/my_calculator/10/allure/#testresult/20a67b22b78685f0",
         "status" : "passed",
@@ -277,6 +304,6 @@
     },
     "tags" : [ "SignIn" ]
   },
-  "source" : "d4f17a00584aaadc.json",
+  "source" : "e633e5adaae8609e.json",
   "parameterValues" : [ "3.0", "1", "2", "=", "+" ]
 }
