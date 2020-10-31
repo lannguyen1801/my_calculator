@@ -1,5 +1,35 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "MainPage",
+    "children" : [ {
+      "name" : "User plus 2 number successfully -- @1.1 ",
+      "uid" : "20a67b22b78685f0",
+      "parentUid" : "3c0b4e0236085f78673323b783e6a5fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603846887760,
+        "stop" : 1603846918839,
+        "duration" : 31079
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3.0", "1", "2", "=", "+" ]
+    }, {
+      "name" : "User plus 2 number successfully -- @1.2 ",
+      "uid" : "aa596473ce57beb9",
+      "parentUid" : "3c0b4e0236085f78673323b783e6a5fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603846918842,
+        "stop" : 1603846948377,
+        "duration" : 29535
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2.0", "3", "1", "=", "-" ]
+    } ],
+    "uid" : "3c0b4e0236085f78673323b783e6a5fd"
+  } ]
 }
