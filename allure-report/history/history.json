@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "d4f17a00584aaadc",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/11/allure/#testresult/d4f17a00584aaadc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604132318591,
+        "stop" : 1604132351697,
+        "duration" : 33106
+      }
+    }, {
       "uid" : "20a67b22b78685f0",
       "reportUrl" : "http://localhost:8080/job/my_calculator/10/allure/#testresult/20a67b22b78685f0",
       "status" : "passed",
@@ -69,11 +78,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "44347753a7e8e15e",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/11/allure/#testresult/44347753a7e8e15e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604132351714,
+        "stop" : 1604132382864,
+        "duration" : 31150
+      }
+    }, {
       "uid" : "aa596473ce57beb9",
       "reportUrl" : "http://localhost:8080/job/my_calculator/10/allure/#testresult/aa596473ce57beb9",
       "status" : "passed",
