@@ -1,11 +1,11 @@
 {
-  "uid" : "bf175dd5182dabde",
+  "uid" : "f108c80e3710be6d",
   "name" : "User plus 2 number successfully -- @1.2 ",
   "historyId" : "4269df6422320b1fb31b64595a433cfc",
   "time" : {
-    "start" : 1603846692596,
-    "stop" : 1603846723685,
-    "duration" : 31089
+    "start" : 1604133575383,
+    "stop" : 1604133610660,
+    "duration" : 35277
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,113 +16,113 @@
     "steps" : [ {
       "name" : "Given User navigate to Calculator application",
       "time" : {
-        "start" : 1603846692599,
-        "stop" : 1603846712135,
-        "duration" : 19536
+        "start" : 1604133575385,
+        "stop" : 1604133596382,
+        "duration" : 20997
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "Then User must see title with \"Simple Calculator\"",
       "time" : {
-        "start" : 1603846712135,
-        "stop" : 1603846712612,
-        "duration" : 477
+        "start" : 1604133596382,
+        "stop" : 1604133596535,
+        "duration" : 153
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "When User press first number with \"3\"",
       "time" : {
-        "start" : 1603846712612,
-        "stop" : 1603846715994,
-        "duration" : 3382
+        "start" : 1604133596535,
+        "stop" : 1604133601901,
+        "duration" : 5366
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "And User press \"-\" symbol",
       "time" : {
-        "start" : 1603846715995,
-        "stop" : 1603846717562,
-        "duration" : 1567
+        "start" : 1604133601901,
+        "stop" : 1604133603622,
+        "duration" : 1721
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "And User press second number with \"1\"",
       "time" : {
-        "start" : 1603846717562,
-        "stop" : 1603846720466,
-        "duration" : 2904
+        "start" : 1604133603622,
+        "stop" : 1604133606797,
+        "duration" : 3175
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "And User press \"=\" button",
       "time" : {
-        "start" : 1603846720466,
-        "stop" : 1603846723538,
-        "duration" : 3072
+        "start" : 1604133606797,
+        "stop" : 1604133610474,
+        "duration" : 3677
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "Then User must see the result with \"2.0\"",
       "time" : {
-        "start" : 1603846723539,
-        "stop" : 1603846723685,
-        "duration" : 146
+        "start" : 1604133610474,
+        "stop" : 1604133610660,
+        "duration" : 186
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
     "hasContent" : true,
+    "stepsCount" : 7,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   },
@@ -169,6 +169,6 @@
     "categories" : [ ],
     "tags" : [ "SignIn" ]
   },
-  "source" : "bf175dd5182dabde.json",
+  "source" : "f108c80e3710be6d.json",
   "parameterValues" : [ "2.0", "3", "1", "=", "-" ]
 }

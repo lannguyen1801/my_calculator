@@ -27,8 +27,12 @@ def fill_usernames(self, number1):
     try:
         #temp = tuple(number1)
         for i in number1:
-            user = environment.driver.find_element_by_xpath("//*[@text='{}']".format(i))
-            user.click()
+            if i == '0':
+                user = environment.driver.find_element_by_xpath("//*[@text='O']")
+                user.click()
+            else:
+                user = environment.driver.find_element_by_xpath("//*[@text='{}']".format(i))
+                user.click()
         #sleep(1)
         environment.screenshot_pass()
     except NoSuchElementException as e: #check locator exist or not
