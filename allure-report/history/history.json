@@ -60,6 +60,26 @@
       }
     } ]
   },
+  "164718e58e1578402e6c7e892a0875ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "335c824019449a10",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/20/allure/#testresult/335c824019449a10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604223385246,
+        "stop" : 1604223418004,
+        "duration" : 32758
+      }
+    } ]
+  },
   "4269df6422320b1fb31b64595a433cfc" : {
     "statistic" : {
       "failed" : 0,
@@ -335,6 +355,27 @@
       }
     } ]
   },
+  "d0d38299603cee9ea89670f8186e0db5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ea6d5a1df25efdd",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/20/allure/#testresult/4ea6d5a1df25efdd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Dont see final result\n",
+      "time" : {
+        "start" : 1604223348373,
+        "stop" : 1604223385232,
+        "duration" : 36859
+      }
+    } ]
+  },
   "a9707fb407b14fc963c84715def07951" : {
     "statistic" : {
       "failed" : 0,
@@ -352,6 +393,35 @@
         "start" : 1604221316545,
         "stop" : 1604221351405,
         "duration" : 34860
+      }
+    } ]
+  },
+  "ec57d1e10bc4562d24b7b15b42e072d3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c08f3097efde793c",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/20/allure/#testresult/c08f3097efde793c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604222980150,
+        "stop" : 1604223013333,
+        "duration" : 33183
+      }
+    }, {
+      "uid" : "7e57ff4ebd3f90ca",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/19/allure/#testresult/7e57ff4ebd3f90ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604222980150,
+        "stop" : 1604223013333,
+        "duration" : 33183
       }
     } ]
   }

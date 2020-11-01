@@ -14,5 +14,5 @@ Feature: MainPage
         Then User must see the result with "<message>"
         Examples:
             | number1 | symbol  | number2 | result | message |
-            | 11      | +       | 2       | =      | 13.0    |
+            | 15      | +       | 2       | =      | 17.0    |
             | 3       | -       | 1       | =      | 2.0     |
