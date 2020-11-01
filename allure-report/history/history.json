@@ -1,14 +1,24 @@
 {
   "d3ea4bb2bf154517593aefde600b3b4a" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c533e2914005463c",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/16/allure/#testresult/c533e2914005463c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Dont see final result\n",
+      "time" : {
+        "start" : 1604220591399,
+        "stop" : 1604220622343,
+        "duration" : 30944
+      }
+    }, {
       "uid" : "23a09fa56250fbd6",
       "reportUrl" : "http://localhost:8080/job/my_calculator/15/allure/#testresult/23a09fa56250fbd6",
       "status" : "failed",
@@ -35,11 +45,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "188bb43a47171d68",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/16/allure/#testresult/188bb43a47171d68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604220622357,
+        "stop" : 1604220653365,
+        "duration" : 31008
+      }
+    }, {
       "uid" : "894b531a192bdd8f",
       "reportUrl" : "http://localhost:8080/job/my_calculator/15/allure/#testresult/894b531a192bdd8f",
       "status" : "passed",
@@ -145,11 +164,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "bb2e39f55b9be987",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/16/allure/#testresult/bb2e39f55b9be987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604133540037,
+        "stop" : 1604133575380,
+        "duration" : 35343
+      }
+    }, {
       "uid" : "b82a616776ab0344",
       "reportUrl" : "http://localhost:8080/job/my_calculator/15/allure/#testresult/b82a616776ab0344",
       "status" : "passed",

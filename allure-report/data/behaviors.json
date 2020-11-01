@@ -5,7 +5,7 @@
     "name" : "MainPage",
     "children" : [ {
       "name" : "User plus 2 number successfully -- @1.1 ",
-      "uid" : "b82a616776ab0344",
+      "uid" : "bb2e39f55b9be987",
       "parentUid" : "3c0b4e0236085f78673323b783e6a5fd",
       "status" : "passed",
       "time" : {
@@ -18,26 +18,26 @@
       "parameters" : [ "3.0", "1", "2", "=", "+" ]
     }, {
       "name" : "User plus 2 number successfully -- @1.1 ",
-      "uid" : "23a09fa56250fbd6",
+      "uid" : "c533e2914005463c",
       "parentUid" : "3c0b4e0236085f78673323b783e6a5fd",
       "status" : "failed",
       "time" : {
-        "start" : 1604220281740,
-        "stop" : 1604220314230,
-        "duration" : 32490
+        "start" : 1604220591399,
+        "stop" : 1604220622343,
+        "duration" : 30944
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "10.0", "10", "2", "=", "+" ]
     }, {
       "name" : "User plus 2 number successfully -- @1.2 ",
-      "uid" : "894b531a192bdd8f",
+      "uid" : "188bb43a47171d68",
       "parentUid" : "3c0b4e0236085f78673323b783e6a5fd",
       "status" : "passed",
       "time" : {
-        "start" : 1604220314244,
-        "stop" : 1604220344128,
-        "duration" : 29884
+        "start" : 1604220622357,
+        "stop" : 1604220653365,
+        "duration" : 31008
       },
       "flaky" : false,
       "newFailed" : false,

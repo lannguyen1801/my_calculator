@@ -1,5 +1,25 @@
 [ {
-  "uid" : "b82a616776ab0344",
+  "uid" : "188bb43a47171d68",
+  "name" : "User plus 2 number successfully -- @1.2 ",
+  "time" : {
+    "start" : 1604220622357,
+    "stop" : 1604220653365,
+    "duration" : 31008
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c533e2914005463c",
+  "name" : "User plus 2 number successfully -- @1.1 ",
+  "time" : {
+    "start" : 1604220591399,
+    "stop" : 1604220622343,
+    "duration" : 30944
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb2e39f55b9be987",
   "name" : "User plus 2 number successfully -- @1.1 ",
   "time" : {
     "start" : 1604133540037,
@@ -7,25 +27,5 @@
     "duration" : 35343
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "894b531a192bdd8f",
-  "name" : "User plus 2 number successfully -- @1.2 ",
-  "time" : {
-    "start" : 1604220314244,
-    "stop" : 1604220344128,
-    "duration" : 29884
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "23a09fa56250fbd6",
-  "name" : "User plus 2 number successfully -- @1.1 ",
-  "time" : {
-    "start" : 1604220281740,
-    "stop" : 1604220314230,
-    "duration" : 32490
-  },
-  "status" : "failed",
   "severity" : "normal"
 } ]

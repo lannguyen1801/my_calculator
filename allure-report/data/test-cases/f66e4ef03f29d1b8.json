@@ -1,136 +1,136 @@
 {
-  "uid" : "b6904970e231d80e",
+  "uid" : "f66e4ef03f29d1b8",
   "name" : "User plus 2 number successfully -- @1.1 ",
   "historyId" : "b25e046a7cd574a2b1f9cba03d97128c",
   "time" : {
-    "start" : 1604133122645,
-    "stop" : 1604133143181,
-    "duration" : 20536
+    "start" : 1603846302878,
+    "stop" : 1603846324270,
+    "duration" : 21392
   },
   "status" : "failed",
   "statusMessage" : "AssertionError: Dont see message\n",
-  "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
+  "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"automationTest\\steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "failed",
     "statusMessage" : "AssertionError: Dont see message\n",
-    "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
+    "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"automationTest\\steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
     "steps" : [ {
       "name" : "Given User navigate to Calculator application",
       "time" : {
-        "start" : 1604133122648,
-        "stop" : 1604133141157,
-        "duration" : 18509
+        "start" : 1603846302884,
+        "stop" : 1603846323499,
+        "duration" : 20615
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Then User must see title with \"Simple Calculator\"",
       "time" : {
-        "start" : 1604133141158,
-        "stop" : 1604133143176,
-        "duration" : 2018
+        "start" : 1603846323500,
+        "stop" : 1603846324265,
+        "duration" : 765
       },
       "status" : "failed",
       "statusMessage" : "AssertionError: Dont see message\n",
-      "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
+      "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"automationTest\\steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : true,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
     }, {
       "name" : "When User press first number with \"1\"",
       "time" : {
-        "start" : 1604133143180,
-        "stop" : 1604133143180,
+        "start" : 1603846324269,
+        "stop" : 1603846324269,
         "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "And User press \"+\" symbol",
       "time" : {
-        "start" : 1604133143180,
-        "stop" : 1604133143180,
-        "duration" : 0
+        "start" : 1603846324269,
+        "stop" : 1603846324270,
+        "duration" : 1
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "And User press second number with \"2\"",
       "time" : {
-        "start" : 1604133143180,
-        "stop" : 1604133143180,
+        "start" : 1603846324270,
+        "stop" : 1603846324270,
         "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "And User press \"=\" button",
       "time" : {
-        "start" : 1604133143181,
-        "stop" : 1604133143181,
+        "start" : 1603846324270,
+        "stop" : 1603846324270,
         "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Then User must see the result with \"3.0\"",
       "time" : {
-        "start" : 1604133143181,
-        "stop" : 1604133143181,
+        "start" : 1603846324270,
+        "stop" : 1603846324270,
         "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
+    "stepsCount" : 7,
     "hasContent" : true,
-    "stepsCount" : 7
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -175,6 +175,6 @@
     "categories" : [ ],
     "tags" : [ "SignIn" ]
   },
-  "source" : "b6904970e231d80e.json",
+  "source" : "f66e4ef03f29d1b8.json",
   "parameterValues" : [ "3.0", "1", "2", "=", "+" ]
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "23a09fa56250fbd6",
+  "uid" : "c533e2914005463c",
   "name" : "User plus 2 number successfully -- @1.1 ",
   "historyId" : "d3ea4bb2bf154517593aefde600b3b4a",
   "time" : {
-    "start" : 1604220281740,
-    "stop" : 1604220314230,
-    "duration" : 32490
+    "start" : 1604220591399,
+    "stop" : 1604220622343,
+    "duration" : 30944
   },
   "status" : "failed",
   "statusMessage" : "AssertionError: Dont see final result\n",
@@ -20,99 +20,99 @@
     "steps" : [ {
       "name" : "Given User navigate to Calculator application",
       "time" : {
-        "start" : 1604220281745,
-        "stop" : 1604220300826,
-        "duration" : 19081
+        "start" : 1604220591403,
+        "stop" : 1604220609900,
+        "duration" : 18497
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Then User must see title with \"Simple Calculator\"",
       "time" : {
-        "start" : 1604220300826,
-        "stop" : 1604220301307,
-        "duration" : 481
+        "start" : 1604220609900,
+        "stop" : 1604220610224,
+        "duration" : 324
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "When User press first number with \"10\"",
       "time" : {
-        "start" : 1604220301307,
-        "stop" : 1604220305890,
-        "duration" : 4583
+        "start" : 1604220610225,
+        "stop" : 1604220614749,
+        "duration" : 4524
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "And User press \"+\" symbol",
       "time" : {
-        "start" : 1604220305890,
-        "stop" : 1604220307541,
-        "duration" : 1651
+        "start" : 1604220614750,
+        "stop" : 1604220616299,
+        "duration" : 1549
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "And User press second number with \"2\"",
       "time" : {
-        "start" : 1604220307541,
-        "stop" : 1604220310601,
-        "duration" : 3060
+        "start" : 1604220616299,
+        "stop" : 1604220619169,
+        "duration" : 2870
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "And User press \"=\" button",
       "time" : {
-        "start" : 1604220310602,
-        "stop" : 1604220313883,
-        "duration" : 3281
+        "start" : 1604220619170,
+        "stop" : 1604220622003,
+        "duration" : 2833
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Then User must see the result with \"10.0\"",
       "time" : {
-        "start" : 1604220313884,
-        "stop" : 1604220314228,
-        "duration" : 344
+        "start" : 1604220622004,
+        "stop" : 1604220622341,
+        "duration" : 337
       },
       "status" : "failed",
       "statusMessage" : "AssertionError: Dont see final result\n",
@@ -120,17 +120,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : true,
-      "attachmentsCount" : 0,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
+    "stepsCount" : 7,
     "hasContent" : true,
-    "stepsCount" : 7
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -174,7 +174,16 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "8e29cf9bb7799bde",
+      "uid" : "48e312cbfbafb061",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Dont see final result\n",
+      "time" : {
+        "start" : 1604220281740,
+        "stop" : 1604220314230,
+        "duration" : 32490
+      }
+    }, {
+      "uid" : "af8a6c6eabd1d803",
       "status" : "failed",
       "statusDetails" : "AssertionError: Dont see final result\n",
       "time" : {
@@ -190,14 +199,24 @@
     } ],
     "history" : {
       "statistic" : {
-        "failed" : 2,
+        "failed" : 3,
         "broken" : 0,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "23a09fa56250fbd6",
+        "reportUrl" : "http://localhost:8080/job/my_calculator/15/allure/#testresult/23a09fa56250fbd6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Dont see final result\n",
+        "time" : {
+          "start" : 1604220281740,
+          "stop" : 1604220314230,
+          "duration" : 32490
+        }
+      }, {
         "uid" : "fb2d1a419f5af58e",
         "reportUrl" : "http://localhost:8080/job/my_calculator/14/allure/#testresult/fb2d1a419f5af58e",
         "status" : "failed",
@@ -211,6 +230,6 @@
     },
     "tags" : [ "SignIn" ]
   },
-  "source" : "23a09fa56250fbd6.json",
+  "source" : "c533e2914005463c.json",
   "parameterValues" : [ "10.0", "10", "2", "=", "+" ]
 }
