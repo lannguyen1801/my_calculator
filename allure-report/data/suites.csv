@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Oct 31 15:39:00 ICT 2020","Sat Oct 31 15:39:35 ICT 2020","35343","","","","","","User plus 2 number successfully -- @1.1 ",""
-"failed","Sun Nov 01 15:57:09 ICT 2020","Sun Nov 01 15:57:40 ICT 2020","31324","","","","","","User plus 2 number successfully -- @1.1 ",""
-"passed","Sun Nov 01 15:57:40 ICT 2020","Sun Nov 01 15:58:12 ICT 2020","31822","","","","","","User plus 2 number successfully -- @1.2 ",""
