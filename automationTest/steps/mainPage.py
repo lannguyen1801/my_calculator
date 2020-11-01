@@ -25,8 +25,10 @@ def title(self, Title):
 @When('User press first number with "{number1}"')
 def fill_usernames(self, number1):
     try:
-        user = environment.driver.find_element_by_xpath("//*[@text='{}']".format(number1))
-        user.click()
+        #temp = tuple(number1)
+        for i in number1:
+            user = environment.driver.find_element_by_xpath("//*[@text='{}']".format(i))
+            user.click()
         #sleep(1)
         environment.screenshot_pass()
     except NoSuchElementException as e: #check locator exist or not
@@ -39,7 +41,7 @@ def fill_usernames(self, symbol):
         user = environment.driver.find_element_by_xpath("//*[@text='{}']".format(symbol))
         user.click()
         sleep(1)
-       # environment.screenshot_pass()
+    # environment.screenshot_pass()
     except NoSuchElementException as e: #check locator exist or not
         #environment.screenshot_pass()
         assert False, "Could not find symbol"
@@ -47,8 +49,14 @@ def fill_usernames(self, symbol):
 @When('User press second number with "{number2}"')
 def fill_usernames(self, number2):
     try:
-        user = environment.driver.find_element_by_xpath("//*[@text='{}']".format(number2))
-        user.click()
+        #temp = tuple(number2)
+        for y in number2:
+            if y == '0':
+                user = environment.driver.find_element_by_xpath("//*[@text='O']")
+                user.click()
+            else:
+                user = environment.driver.find_element_by_xpath("//*[@text='{}']".format(y))
+                user.click()
         #sleep(1)
         environment.screenshot_pass()
     except NoSuchElementException as e: #check locator exist or not

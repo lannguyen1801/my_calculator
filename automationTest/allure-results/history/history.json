@@ -1,14 +1,24 @@
 {
   "b25e046a7cd574a2b1f9cba03d97128c" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "e633e5adaae8609e",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/12/allure/#testresult/e633e5adaae8609e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Dont see message\n",
+      "time" : {
+        "start" : 1604133122645,
+        "stop" : 1604133143181,
+        "duration" : 20536
+      }
+    }, {
       "uid" : "d4f17a00584aaadc",
       "reportUrl" : "http://localhost:8080/job/my_calculator/11/allure/#testresult/d4f17a00584aaadc",
       "status" : "passed",
@@ -78,11 +88,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "54b35eeec454aa5b",
+      "reportUrl" : "http://localhost:8080/job/my_calculator/12/allure/#testresult/54b35eeec454aa5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604133143220,
+        "stop" : 1604133179082,
+        "duration" : 35862
+      }
+    }, {
       "uid" : "44347753a7e8e15e",
       "reportUrl" : "http://localhost:8080/job/my_calculator/11/allure/#testresult/44347753a7e8e15e",
       "status" : "passed",

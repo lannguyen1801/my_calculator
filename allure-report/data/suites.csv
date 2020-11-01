@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Oct 31 15:32:23 ICT 2020","Sat Oct 31 15:32:59 ICT 2020","35862","","","","","","User plus 2 number successfully -- @1.2 ",""
-"failed","Sat Oct 31 15:32:02 ICT 2020","Sat Oct 31 15:32:23 ICT 2020","20536","","","","","","User plus 2 number successfully -- @1.1 ",""
+"passed","Sat Oct 31 15:39:35 ICT 2020","Sat Oct 31 15:40:10 ICT 2020","35277","","","","","","User plus 2 number successfully -- @1.2 ",""
+"passed","Sat Oct 31 15:39:00 ICT 2020","Sat Oct 31 15:39:35 ICT 2020","35343","","","","","","User plus 2 number successfully -- @1.1 ",""

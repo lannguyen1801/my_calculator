@@ -26,50 +26,61 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
   String expression="";
   double equationFontSize=38.0;
   double resultFontSize=48.0;
-  int cong=0, tru=0, nhan=0, chia=0, phantram=0, pheptinh=0, ketqua=0;
+  int a=0;
+  int b=0;
+  int pheptoan =0;
   buttonPressed(String buttonText){
     setState(() {
       if(buttonText == "C"){
-        ketqua=0;
-
         equation="0";
         result="0";
-        pheptinh=0;
-        cong=0;
-        tru=0;
-        nhan=0;
-        chia=0;
-        phantram=0;
         equationFontSize=38.0;
         resultFontSize=48.0;
+        a = 0;
+        b = 0;
+        pheptoan = 0;
       }else if(buttonText =="⌫"){
         equationFontSize=38.0;
         resultFontSize=48.0;
-        result = result.substring(0, result.length - 1);
-        if(result==""){
-          result="0";
+        if(a>0){
+          if(pheptoan==1){
+            if(b>0){
+              equation = equation.substring(0, equation.length - 1);
+              b = b - 1;
+            }else{
+              b=0;
+              pheptoan=0;
+              equation = equation.substring(0, equation.length - 1);
+            }
+          }else{
+            a = a - 1;
+            equation = equation.substring(0, equation.length - 1);
+
+          }
+        }else{
+          a=0;
         }
+
+        if(equation==""){
+          equation="0";
+        }
+       // result=a.toString()+b.toString();
       }else if(buttonText=="+/-"){
         if(result!="0") {
           result.toString().startsWith('-') ?
           result = result.toString().substring(1) : result =
               '-' + result.toString();
-          //equation=result;
-         // result="0";
+          equation=result;
+          result="0";
 
 
         }
       }else if(buttonText =="="){
-        ketqua=1;
-        pheptinh=0;
-        cong=0;
-        tru=0;
-        nhan=0;
-        chia=0;
-        phantram=0;
+        a=0;
+        b=0;
+        pheptoan = 0;
         equationFontSize=38.0;
         resultFontSize=48.0;
-        equation = equation+result;
         expression = equation;
         expression = expression.replaceAll('×', '*');
         expression = expression.replaceAll('÷', '/');
@@ -85,154 +96,46 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
             expression=result.toString();
           });
           equation= equation+"=";
+          if(result =="Infinity"){
+            result="Error";
+          }
         }catch(e){
           result="Error";
         }
       }else{
-
-        equationFontSize=38.0;
-        resultFontSize=48.0;
-        if(result=="0"){
-          result=buttonText;
-
+        equationFontSize=48.0;
+        resultFontSize=38.0;
+        if(equation=="0"){
+          equation=buttonText;
+          a=1;
         }else {
-          if(pheptinh==1){
-            cong=0;
-            tru=0;
-            nhan=0;
-            chia=0;
-            phantram=0;
-            pheptinh=0;
-            if(buttonText != "+" && buttonText != "-" && buttonText != "×" && buttonText != "÷" && buttonText != "%") {
-              result="";
-              ketqua=0;
-              result = result + buttonText;
-              // if(result =="0") {
-              //   equation = equation + buttonText;
-              // }else{
-              //   equation = result + buttonText;
-              //   result ="0";
-              // }
+          if(equation.length<50) {
+            if(buttonText=="O"){
+              buttonText="0";
             }
-
-          }else {
-            if (result.length < 12) {
-              if (buttonText != "+" && buttonText != "-" && buttonText != "×" && buttonText != "÷" && buttonText != "%") {
-                if(ketqua==1){
-                  ketqua=0;
-                  result=buttonText;
-                  equation="0";
-                }else {
-                  result = result + buttonText;
+            if(result =="0") {
+              if(buttonText=="+" || buttonText=="-" ||buttonText=="×" || buttonText=="÷") {
+                pheptoan = 1;
+                equation = equation + buttonText;
+              }else{
+                if(pheptoan==1){
+                  if(b<12){
+                    equation = equation + buttonText;
+                    b = b + 1;
+                  }
+                }else{
+                  if(a<12) {
+                    equation = equation + buttonText;
+                    a = a + 1;
+                  }
                 }
-                // if(result =="0") {
-                //   equation = equation + buttonText;
-                // }else{
-                //   equation = result + buttonText;
-                //   result ="0";
-                // }
               }
-            }
-          }
-          if(buttonText =="+" && cong==0 && tru ==0 && nhan==0 && chia==0 && phantram==0){
-            cong=1;
-            if(equation=="0") {
-              equation = result + buttonText;
+
             }else{
-              if(ketqua==1) {
-                equation = result + buttonText;
-              }else{
-                equation = equation + result + buttonText;
-              }
-            }
-            pheptinh=1;
-          }else{
-            if(buttonText=="+" && cong==0) {
-              pheptinh=1;
-              cong = 1;
-              equation = equation.substring(0, equation.length - 1);
-              equation = equation+result + buttonText;
-              tru = 0;
-              nhan = 0;
-              chia = 0;
-              phantram = 0;
-            }
-          }
-          if(buttonText =="-" && cong==0 && tru ==0 && nhan==0 && chia==0 && phantram==0){
-            tru=1;
-            if(equation=="0") {
               equation = result + buttonText;
-            }else{
-              if(ketqua==1) {
-                equation = result + buttonText;
-              }else{
-                equation = equation + result + buttonText;
-              }
+              pheptoan=1;
+              result ="0";
             }
-            pheptinh=1;
-          }else{
-            if(buttonText=="-" && tru==0) {
-              pheptinh=1;
-              tru = 1;
-              equation = equation.substring(0, equation.length - 1);
-              equation = equation+result + buttonText;
-              cong = 0;
-              nhan = 0;
-              chia = 0;
-              phantram = 0;
-            }
-          }
-          if(buttonText =="×" && cong==0 && tru ==0 && nhan==0 && chia==0 && phantram==0){
-            nhan=1;
-            if(equation=="0") {
-              equation = result + buttonText;
-            }else{
-              if(ketqua==1) {
-                equation = result + buttonText;
-              }else{
-                equation = equation + result + buttonText;
-              }
-            }
-            pheptinh=1;
-          }else{
-            if(buttonText=="×" && nhan==0) {
-              pheptinh=1;
-              nhan = 1;
-              equation = equation.substring(0, equation.length - 1);
-              equation = equation+result + buttonText;
-              cong = 0;
-              tru = 0;
-              chia = 0;
-              phantram = 0;
-            }
-          }
-          if(buttonText =="÷" && cong==0 && tru ==0 && nhan==0 && chia==0 && phantram==0){
-            chia=1;
-            if(equation=="0") {
-              equation = result + buttonText;
-            }else{
-              if(ketqua==1) {
-                equation = result + buttonText;
-              }else{
-                equation = equation + result + buttonText;
-              }
-            }
-            pheptinh=1;
-          }else{
-            if(buttonText=="÷" && chia==0) {
-              pheptinh=1;
-              chia = 1;
-              equation = equation.substring(0, equation.length - 1);
-              equation = equation+result + buttonText;
-              cong = 0;
-              tru = 0;
-              nhan = 0;
-              phantram = 0;
-            }
-          }
-          if(buttonText =="%" && phantram==0 && cong==0 && tru ==0 && nhan==0 && chia==0){
-            cong=1;
-            equation=result+buttonText;
           }
         }
       }
@@ -339,7 +242,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
                     TableRow(
                         children: [
                           buildButton(".", 1, Colors.black38),
-                          buildButton("0", 1, Colors.black38),
+                          buildButton("O", 1, Colors.black38),
                           buildButton("+/-", 1, Colors.black38),
                         ]
                     ),
@@ -396,6 +299,5 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
         ],
       ),
     );
-
   }
 }
