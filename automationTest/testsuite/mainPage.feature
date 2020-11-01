@@ -6,7 +6,7 @@ Feature: MainPage
         Given User navigate to Calculator application
         Then User must see title with "Simple Calculator"
 
-    Scenario Outline: User plus 2 number successfully
+    Scenario Outline: Demo User plus 2 number successfully
         When User press first number with "<number1>"
         And User press "<symbol>" symbol
         And User press second number with "<number2>"
@@ -14,5 +14,4 @@ Feature: MainPage
         Then User must see the result with "<message>"
         Examples:
             | number1 | symbol  | number2 | result | message |
-            | 10      | +       | 2       | =      | 10.0    |
-            | 3       | -       | 1       | =      | 2.0     |
+            | 10      | +       | 2       | =      | 12.0    |

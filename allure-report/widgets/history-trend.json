@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 17,
+  "reportUrl" : "http://localhost:8080/job/my_calculator/17/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 3
+  }
+}, {
   "buildOrder" : 16,
   "reportUrl" : "http://localhost:8080/job/my_calculator/16/allure",
   "reportName" : "AllureReport",

@@ -1,128 +1,134 @@
 {
-  "uid" : "cb1af56ba69c4076",
+  "uid" : "221be4cc98f722b0",
   "name" : "User plus 2 number successfully -- @1.1 ",
   "historyId" : "b25e046a7cd574a2b1f9cba03d97128c",
   "time" : {
-    "start" : 1603845660183,
-    "stop" : 1603845692599,
-    "duration" : 32416
+    "start" : 1603846302878,
+    "stop" : 1603846324270,
+    "duration" : 21392
   },
-  "status" : "passed",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Dont see message\n",
+  "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"automationTest\\steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "status" : "passed",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Dont see message\n",
+    "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"automationTest\\steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
     "steps" : [ {
       "name" : "Given User navigate to Calculator application",
       "time" : {
-        "start" : 1603845660188,
-        "stop" : 1603845679905,
-        "duration" : 19717
+        "start" : 1603846302884,
+        "stop" : 1603846323499,
+        "duration" : 20615
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "Then User must see title with \"Simple Calculator\"",
       "time" : {
-        "start" : 1603845679906,
-        "stop" : 1603845680577,
-        "duration" : 671
+        "start" : 1603846323500,
+        "stop" : 1603846324265,
+        "duration" : 765
       },
-      "status" : "passed",
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Dont see message\n",
+      "statusTrace" : "  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\ntngo\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"automationTest\\steps\\mainPage.py\", line 23, in title\n    assert False, \"Dont see message\"\n",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
+      "shouldDisplayMessage" : true,
       "attachmentsCount" : 0
     }, {
       "name" : "When User press first number with \"1\"",
       "time" : {
-        "start" : 1603845680578,
-        "stop" : 1603845684720,
-        "duration" : 4142
+        "start" : 1603846324269,
+        "stop" : 1603846324269,
+        "duration" : 0
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "And User press \"+\" symbol",
       "time" : {
-        "start" : 1603845684721,
-        "stop" : 1603845686422,
-        "duration" : 1701
+        "start" : 1603846324269,
+        "stop" : 1603846324270,
+        "duration" : 1
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "And User press second number with \"2\"",
       "time" : {
-        "start" : 1603845686422,
-        "stop" : 1603845689425,
-        "duration" : 3003
+        "start" : 1603846324270,
+        "stop" : 1603846324270,
+        "duration" : 0
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "And User press \"=\" button",
       "time" : {
-        "start" : 1603845689426,
-        "stop" : 1603845692467,
-        "duration" : 3041
+        "start" : 1603846324270,
+        "stop" : 1603846324270,
+        "duration" : 0
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
       "name" : "Then User must see the result with \"3.0\"",
       "time" : {
-        "start" : 1603845692468,
-        "stop" : 1603845692598,
-        "duration" : 130
+        "start" : 1603846324270,
+        "stop" : 1603846324270,
+        "duration" : 0
       },
-      "status" : "passed",
+      "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
     "hasContent" : true,
+    "stepsCount" : 7,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   },
@@ -169,6 +175,6 @@
     "categories" : [ ],
     "tags" : [ "SignIn" ]
   },
-  "source" : "cb1af56ba69c4076.json",
+  "source" : "221be4cc98f722b0.json",
   "parameterValues" : [ "3.0", "1", "2", "=", "+" ]
 }

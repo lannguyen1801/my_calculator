@@ -1,5 +1,5 @@
 {
-  "uid" : "bb2e39f55b9be987",
+  "uid" : "9aaaaf26a341bfc8",
   "name" : "User plus 2 number successfully -- @1.1 ",
   "historyId" : "b25e046a7cd574a2b1f9cba03d97128c",
   "time" : {
@@ -24,8 +24,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
@@ -39,8 +39,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
@@ -54,8 +54,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
@@ -69,8 +69,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
@@ -84,8 +84,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
@@ -99,8 +99,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
@@ -114,15 +114,15 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
     "hasContent" : true,
+    "stepsCount" : 7,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   },
@@ -168,7 +168,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "ddbe1637e9044fb2",
+      "uid" : "532484e7019de0d1",
       "status" : "failed",
       "statusDetails" : "AssertionError: Dont see message\n",
       "time" : {
@@ -177,7 +177,7 @@
         "duration" : 20536
       }
     }, {
-      "uid" : "507465beda14976c",
+      "uid" : "5ed3c5d42c626735",
       "status" : "passed",
       "time" : {
         "start" : 1604132318591,
@@ -185,7 +185,7 @@
         "duration" : 33106
       }
     }, {
-      "uid" : "849fcc83108ab46c",
+      "uid" : "620acd54fd881922",
       "status" : "passed",
       "time" : {
         "start" : 1603846887760,
@@ -193,7 +193,7 @@
         "duration" : 31079
       }
     }, {
-      "uid" : "2d609cab43da1c59",
+      "uid" : "e03a372908f8c4ba",
       "status" : "passed",
       "time" : {
         "start" : 1603846659496,
@@ -201,7 +201,7 @@
         "duration" : 33097
       }
     }, {
-      "uid" : "f66e4ef03f29d1b8",
+      "uid" : "221be4cc98f722b0",
       "status" : "failed",
       "statusDetails" : "AssertionError: Dont see message\n",
       "time" : {
@@ -210,7 +210,7 @@
         "duration" : 21392
       }
     }, {
-      "uid" : "cb1af56ba69c4076",
+      "uid" : "b97fbf1acd34d2db",
       "status" : "passed",
       "time" : {
         "start" : 1603845660183,
@@ -218,7 +218,7 @@
         "duration" : 32416
       }
     }, {
-      "uid" : "2f10125e63b513a1",
+      "uid" : "286ef325fdeceb5d",
       "status" : "passed",
       "time" : {
         "start" : 1603634586049,
@@ -232,11 +232,20 @@
         "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 11,
+        "passed" : 12,
         "unknown" : 0,
-        "total" : 12
+        "total" : 13
       },
       "items" : [ {
+        "uid" : "bb2e39f55b9be987",
+        "reportUrl" : "http://localhost:8080/job/my_calculator/16/allure/#testresult/bb2e39f55b9be987",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604133540037,
+          "stop" : 1604133575380,
+          "duration" : 35343
+        }
+      }, {
         "uid" : "b82a616776ab0344",
         "reportUrl" : "http://localhost:8080/job/my_calculator/15/allure/#testresult/b82a616776ab0344",
         "status" : "passed",
@@ -340,6 +349,6 @@
     },
     "tags" : [ "SignIn" ]
   },
-  "source" : "bb2e39f55b9be987.json",
+  "source" : "9aaaaf26a341bfc8.json",
   "parameterValues" : [ "3.0", "1", "2", "=", "+" ]
 }
