@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:8080/",
-  "buildOrder" : 14,
-  "buildName" : "my_calculator #14",
-  "buildUrl" : "http://localhost:8080/job/my_calculator/14/",
+  "buildOrder" : 15,
+  "buildName" : "my_calculator #15",
+  "buildUrl" : "http://localhost:8080/job/my_calculator/15/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8080/job/my_calculator/14/allure"
+  "reportUrl" : "http://localhost:8080/job/my_calculator/15/allure"
 } ]

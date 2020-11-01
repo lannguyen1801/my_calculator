@@ -1,11 +1,11 @@
 {
-  "uid" : "90a71c0f5ac0eada",
-  "name" : "User plus 2 number successfully -- @1.1 ",
-  "historyId" : "b25e046a7cd574a2b1f9cba03d97128c",
+  "uid" : "50dc9c1406ec7880",
+  "name" : "User plus 2 number successfully -- @1.2 ",
+  "historyId" : "4269df6422320b1fb31b64595a433cfc",
   "time" : {
-    "start" : 1603845660183,
-    "stop" : 1603845692599,
-    "duration" : 32416
+    "start" : 1604219975363,
+    "stop" : 1604220006964,
+    "duration" : 31601
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,115 +16,115 @@
     "steps" : [ {
       "name" : "Given User navigate to Calculator application",
       "time" : {
-        "start" : 1603845660188,
-        "stop" : 1603845679905,
-        "duration" : 19717
+        "start" : 1604219975365,
+        "stop" : 1604219994128,
+        "duration" : 18763
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Then User must see title with \"Simple Calculator\"",
       "time" : {
-        "start" : 1603845679906,
-        "stop" : 1603845680577,
-        "duration" : 671
+        "start" : 1604219994128,
+        "stop" : 1604219994592,
+        "duration" : 464
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "When User press first number with \"1\"",
+      "name" : "When User press first number with \"3\"",
       "time" : {
-        "start" : 1603845680578,
-        "stop" : 1603845684720,
-        "duration" : 4142
+        "start" : 1604219994592,
+        "stop" : 1604219999759,
+        "duration" : 5167
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "And User press \"+\" symbol",
+      "name" : "And User press \"-\" symbol",
       "time" : {
-        "start" : 1603845684721,
-        "stop" : 1603845686422,
-        "duration" : 1701
+        "start" : 1604219999759,
+        "stop" : 1604220001301,
+        "duration" : 1542
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "And User press second number with \"2\"",
+      "name" : "And User press second number with \"1\"",
       "time" : {
-        "start" : 1603845686422,
-        "stop" : 1603845689425,
-        "duration" : 3003
+        "start" : 1604220001301,
+        "stop" : 1604220004241,
+        "duration" : 2940
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "And User press \"=\" button",
       "time" : {
-        "start" : 1603845689426,
-        "stop" : 1603845692467,
-        "duration" : 3041
+        "start" : 1604220004241,
+        "stop" : 1604220006820,
+        "duration" : 2579
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "Then User must see the result with \"3.0\"",
+      "name" : "Then User must see the result with \"2.0\"",
       "time" : {
-        "start" : 1603845692468,
-        "stop" : 1603845692598,
-        "duration" : 130
+        "start" : 1604220006820,
+        "stop" : 1604220006964,
+        "duration" : 144
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 7,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 7
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -148,19 +148,19 @@
   } ],
   "parameters" : [ {
     "name" : "message",
-    "value" : "3.0"
+    "value" : "2.0"
   }, {
     "name" : "number1",
-    "value" : "1"
+    "value" : "3"
   }, {
     "name" : "number2",
-    "value" : "2"
+    "value" : "1"
   }, {
     "name" : "result",
     "value" : "="
   }, {
     "name" : "symbol",
-    "value" : "+"
+    "value" : "-"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -169,6 +169,6 @@
     "categories" : [ ],
     "tags" : [ "SignIn" ]
   },
-  "source" : "90a71c0f5ac0eada.json",
-  "parameterValues" : [ "3.0", "1", "2", "=", "+" ]
+  "source" : "50dc9c1406ec7880.json",
+  "parameterValues" : [ "2.0", "3", "1", "=", "-" ]
 }
