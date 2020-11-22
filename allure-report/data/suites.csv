@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Nov 01 16:36:25 ICT 2020","Sun Nov 01 16:36:58 ICT 2020","32758","","","","","","Dome User plus 2 number successfully -- @1.2 ",""
-"failed","Sun Nov 01 16:35:48 ICT 2020","Sun Nov 01 16:36:25 ICT 2020","36859","","","","","","Dome User plus 2 number successfully -- @1.1 ",""
-"passed","Sun Nov 01 16:29:40 ICT 2020","Sun Nov 01 16:30:13 ICT 2020","33183","","","","","","Demo User plus 2 number successfully -- @1.1 ",""
