@@ -278,15 +278,15 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
                         ]
                     ),
 
-                    TableRow(
-                        children: [
-                          buildButton("%", 1, Colors.black54),
-                        ]
-                    ),
+                    // TableRow(
+                    //     children: [
+                    //       buildButton("%", 1, Colors.black54),
+                    //     ]
+                    // ),
 
                     TableRow(
                         children: [
-                          buildButton("=", 1, Colors.blueAccent),
+                          buildButton("=", 2, Colors.blueAccent),
                         ]
                     ),
 
