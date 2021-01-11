@@ -8,6 +8,10 @@ from time import sleep
 import traceback
 
 #call emulator
+@Given('The "{title}"')
+def title2(self, title):
+    sleep(1)
+    
 @Given('User navigate to Calculator application')
 def start(self):
     environment.driver.reset()
