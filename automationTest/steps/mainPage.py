@@ -11,7 +11,7 @@ import traceback
 @Given('The "{title}"')
 def title2(self, title):
     sleep(1)
-    
+
 @Given('User navigate to Calculator application')
 def start(self):
     environment.driver.reset()
@@ -26,7 +26,7 @@ def title(self, Title):
         #environment.screenshot_fail()
         assert False, "Dont see message"
 
-@When('User press first number with "{number1}"')
+@When('User press the first number with "{number1}"')
 def fill_usernames(self, number1):
     try:
         #temp = tuple(number1)
@@ -54,7 +54,7 @@ def fill_usernames(self, symbol):
         #environment.screenshot_pass()
         assert False, "Could not find symbol"
 
-@When('User press second number with "{number2}"')
+@When('User press the second number with "{number2}"')
 def fill_usernames(self, number2):
     try:
         #temp = tuple(number2)
