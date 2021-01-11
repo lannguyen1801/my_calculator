@@ -25,3 +25,4 @@ def screenshot_fail():
     activityname = driver.current_activity
     filename = activityname+st
     driver.save_screenshot("D://ntnlan//Report//Report20_03082020//screenshot//fail//"+filename+".png")
+
